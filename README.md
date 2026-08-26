@@ -38,6 +38,8 @@ saucedemo-selenium-python/
 
 ```bash
 git clone https://github.com/pakjingjing/saucedemo-selenium-python.git
+```
+```bash
 cd saucedemo-selenium-python
 ```
 2. Install Dependencies
