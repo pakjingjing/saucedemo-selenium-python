@@ -30,21 +30,26 @@ saucedemo-selenium-python/
 ├── conftest.py             # Pytest configuration and WebDriver setup
 ├── requirements.txt        # Project dependencies
 └── README.md
+```
 
-⚙️ How to Run the Tests (วิธีติดตั้งและรันโปรเจกต์)
+## ⚙️ How to Run the Tests (วิธีติดตั้งและรันโปรเจกต์)
 1. Clone the repository
 โคลนโปรเจกต์นี้ลงในเครื่องคอมพิวเตอร์ของคุณ:
 
-Bash
+```bash
 git clone https://github.com/pakjingjing/saucedemo-selenium-python.git
 cd saucedemo-selenium-python
+```
 2. Install Dependencies
 ติดตั้งเครื่องมือและไลบรารีที่จำเป็นทั้งหมดผ่านไฟล์ requirements.txt:
 
-Bash
+```Bash
 pip install -r requirements.txt
+```
+
 3. Execute the Tests
 สร้างโฟลเดอร์สำหรับเก็บรายงาน และรันเทสต์ทั้งหมดเพื่อสร้างไฟล์ HTML:
 
-Bash
+```Bash
 pytest tests/ -v --html=reports/report.html --self-contained-html
+```
