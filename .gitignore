@@ -1,0 +1,21 @@
+# Python Cache (ไฟล์แคชที่ระบบสร้างขึ้นมาเอง)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment (โฟลเดอร์จำลองสภาพแวดล้อม Python)
+venv/
+env/
+
+# Pytest and Test Reports (ไฟล์แคชจากการรันเทสต์ และไฟล์รายงานผล)
+.pytest_cache/
+.cache/
+*.html
+
+# IDEs and Editors (ไฟล์ตั้งค่าของ VS Code)
+.vscode/
+
+# OS generated files (ไฟล์ขยะที่ Windows หรือ Mac สร้างขึ้น)
+.DS_Store
+Thumbs.db
